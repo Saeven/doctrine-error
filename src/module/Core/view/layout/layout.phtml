@@ -1,0 +1,40 @@
+<?php echo $this->doctype(); ?>
+
+<html>
+<head>
+	<?php 
+		echo $this->headMeta()
+			->setCharset('UTF-8')
+			->setName('description', 'Pigando');
+		
+		echo $this->headTitle('Pigando');
+
+		/*echo $this->headLink()
+			->appendStylesheet('//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')
+			->appendStylesheet('//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+			->appendStylesheet('//fonts.googleapis.com/css?family=Open+Sans:400,600')
+			->appendStylesheet('//fonts.googleapis.com/css?family=Open+Sans+Condensed:300')
+            ->appendStylesheet($this->basePath('css/styles.css'))
+            ->appendStylesheet($this->basePath('css/sm.css'), '(min-width: 768px)')
+            ->appendStylesheet($this->basePath('css/lg.css'), '(min-width: 1200px)');*/
+	?>
+
+	<?php
+		/*echo $this->headScript()
+			->prependFile('//code.jquery.com/jquery-1.11.2.min.js')
+			->appendFile($this->basePath('/js/app.js'));*/
+		
+		echo $this->inlineScript();
+	?>
+</head>
+
+<body>
+	<header id="header">
+		
+	</header>
+	
+	<main id="main">
+		<?php echo $this->content; ?>
+	</main>
+</body>
+</html>

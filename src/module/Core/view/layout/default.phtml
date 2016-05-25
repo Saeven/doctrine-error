@@ -1,0 +1,27 @@
+<?php echo $this->doctype(); ?>
+
+<html>
+<head>
+	<?php 
+		echo $this->headMeta()
+			->setCharset('UTF-8')
+			->setName('description', 'Test');
+		
+		echo $this->headTitle('Test');
+	?>
+
+	<?php
+		echo $this->inlineScript();
+	?>
+</head>
+
+<body>
+	<header id="header">
+		
+	</header>
+	
+	<main id="main">
+		<?php echo $this->content; ?>
+	</main>
+</body>
+</html>

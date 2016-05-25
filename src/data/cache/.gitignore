@@ -1,0 +1,5 @@
+*
+!.gitignore
+!doctrine
+!module
+!assetsbundle
