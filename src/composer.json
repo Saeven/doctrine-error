@@ -1,0 +1,24 @@
+{
+	"name": "pigando/pigando",
+	
+	"minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zendframework/zendframework": "~2.5",
+        "zendframework/zend-developer-tools": "dev-master"
+    },
+	
+    "authors": [
+		{
+            "name": "Dominik Barann",
+            "email": "barann@pigando.de",
+            "role": "Developer"
+        }
+    ],
+    
+    "support": {
+        "email": "barann@pigando.de"
+	}
+}
